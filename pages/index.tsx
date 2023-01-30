@@ -44,7 +44,7 @@ export default function Home() {
           </a>
 		</Link>
           <Link
-            href="/resume.pdf"
+            href="/"
 			target="_blank"
           rel="noopener noreferrer">
             
