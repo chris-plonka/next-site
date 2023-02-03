@@ -6,17 +6,23 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+<<<<<<< HEAD
     "postinstall": "npm run download-webviewer",
+=======
+     "postinstall": "npm run download-webviewer",
+>>>>>>> 2c3400167a245eb1b99d45bec151c27cd6dffea7
     "download-webviewer": "npx @pdftron/webviewer-downloader",
     "typecheck": "tsc",
     "lint": "eslint --ext .ts,.tsx --ignore-path .gitignore .",
     "lint:fix": "eslint --fix --ext .ts,.tsx --ignore-path .gitignore . && prettier --write ./**/*.{ts,tsx}"
   },
+   
   "dependencies": {
     "@pdftron/webviewer": "^8.11.0",
     "next": "^12.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+   
   },
   "devDependencies": {
     "@types/node": "^18.7.13",

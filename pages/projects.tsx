@@ -8,7 +8,11 @@ import styles from '@/styles/Home.module.css'
 export default function Projects(){
     return(
 	<div className={styles.container}>
+<<<<<<< HEAD
 		  <Link href="/"><a className={styles.cardhome}><h2>Home</h2></a></Link>
+=======
+		  <Link href="/"><a className={styles.cardhome}><h2>home</h2></a></Link>
+>>>>>>> 2c3400167a245eb1b99d45bec151c27cd6dffea7
      <div className={styles.grid}>
             <h2 className={styles.title}>Projects</h2>
             <p className={styles.description}>
