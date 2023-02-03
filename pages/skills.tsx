@@ -10,7 +10,7 @@ export default function Skills(){
 	<div className={styles.container}>
 		    
      <div className={styles.grid}>
-	     <div className={styles.grid}>
+	     <div className={styles.container}>
 	     <Link href="/"><a className={styles.card}><h2>home</h2></a></Link>
 	     </div>
             <h2 className={styles.title}>Skills</h2>
