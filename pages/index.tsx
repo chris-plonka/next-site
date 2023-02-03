@@ -46,9 +46,7 @@ export default function Home() {
           </a>
 		</Link>
           <Link
-            href="/resume"
-			target="_blank"
-          rel="noopener noreferrer">
+            href="/resume">
             
            <a className={styles.card}>
             <h2>Resume &rarr;</h2>
