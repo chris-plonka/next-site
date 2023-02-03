@@ -101,7 +101,7 @@
   border-color: #0070f3;
 }
 
-.card-home {
+.cardhome {
 	display: block;
   margin: 1rem;
   padding: 1.5rem;
@@ -114,9 +114,9 @@
   width: 45%;
 }
 
-.card-home:hover,
-.card-home:focus,
-.card-home:active {
+.cardhome:hover,
+.cardhome:focus,
+.cardhome:active {
   color: #0070f3;
   border-color: #0070f3;
 }
