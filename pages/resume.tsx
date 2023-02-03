@@ -6,9 +6,6 @@ import Link from 'next/link'
 import styles from '@/styles/Home.module.css'
 
 
-export default function Resume() {
-    
-	 const viewer = useRef(null);
 
 export default function Resume(){
     
