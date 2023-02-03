@@ -16,7 +16,7 @@ class IndexPage extends React.Component {
 
       // with this header, your browser will prompt you to download the file
       // without this header, your browse will open the pdf directly
-      res.setHeader('Content-disposition', 'attachment; filename="article.pdf');
+      res.setHeader('Content-disposition', 'attachment; filename="resume.pdf');
       
       // set content type
       res.setHeader('Content-Type', 'application/pdf');
