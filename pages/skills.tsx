@@ -10,9 +10,9 @@ export default function Skills(){
 	<div className={styles.container}>
 		    
      <div className={styles.grid}>
-	     <div>
+	     
 	     <Link href="/"><a className={styles.cardhome}><h2>home</h2></a></Link>
-	     </div>
+	    
             <h2 className={styles.title}>Skills</h2>
             <p className={styles.description}>
              HTML, CSS, SASS, JS, React, Redux, Next.js, Firebase, NPM, Gulp, Git, MySQL, Wordpress.
