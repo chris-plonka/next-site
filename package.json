@@ -8,9 +8,7 @@
     "start": "next start",
     "typecheck": "tsc",
     "lint": "eslint --ext .ts,.tsx --ignore-path .gitignore .",
-    "lint:fix": "eslint --fix --ext .ts,.tsx --ignore-path .gitignore . && prettier --write ./**/*.{ts,tsx}",
-     "postinstall": "npm run download-webviewer",
-    "download-webviewer": "npx @pdftron/webviewer-downloader"
+    "lint:fix": "eslint --fix --ext .ts,.tsx --ignore-path .gitignore . && prettier --write ./**/*.{ts,tsx}"
   },
    
   "dependencies": {
