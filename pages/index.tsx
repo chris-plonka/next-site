@@ -38,15 +38,13 @@ export default function Home() {
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
 		  </Link>
-          <Link
-            href="/projects">
+          <Link href="/projects">
           <a className={styles.card}>
             <h2>Projects &rarr;</h2>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </a>
 		</Link>
-          <Link
-            href="/resume">
+          <Link href="/resume">
             
            <a className={styles.card}>
             <h2>Resume &rarr;</h2>
