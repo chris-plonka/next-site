@@ -1,6 +1,6 @@
 import {useEffect, useRef} from 'react';
 
-export default function HomePage() {
+export default function Resume() {
 
     const viewer = useRef(null);
 
