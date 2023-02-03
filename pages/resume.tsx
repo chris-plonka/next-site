@@ -1,3 +1,4 @@
+import {useEffect, useRef} from 'react';
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -14,7 +15,7 @@ export default function Resume(){
         WebViewer(
           {
             path: '/webviewer/lib',
-            initialDoc: '/files/pdftron_about.pdf',
+            initialDoc: '/files/resume.pdf',
           },
           viewer.current,
         ).then((instance) => {
