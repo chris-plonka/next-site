@@ -11,7 +11,7 @@ export default function Skills(){
 		    
      <div className={styles.grid}>
 	     <div>
-	     <Link href="/"><a className={styles.card}><h2>home</h2></a></Link>
+	     <Link href="/"><a className={styles.card-home}><h2>home</h2></a></Link>
 	     </div>
             <h2 className={styles.title}>Skills</h2>
             <p className={styles.description}>
