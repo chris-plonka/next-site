@@ -43,10 +43,7 @@ export default function Home() {
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </a>
 		</Link>
-          <Link
-            href="/"
-			target="_blank"
-          rel="noopener noreferrer">
+          <Link href="/resume">
             
            <a className={styles.card}>
             <h2>Resume &rarr;</h2>
