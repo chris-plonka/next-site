@@ -9,7 +9,7 @@ export default function HomePage() {
         WebViewer(
           {
             path: '/webviewer/lib',
-            initialDoc: '/files/pdftron_about.pdf',
+            initialDoc: '/files/resume.pdf',
           },
           viewer.current,
         ).then((instance) => {
