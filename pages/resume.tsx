@@ -33,7 +33,7 @@ export default function Resume(){
 	
 
       return(
-	<div className={styles.container}>
+	
 		  
     
       <div className="MyComponent">
@@ -41,7 +41,7 @@ export default function Resume(){
         <div className="header">React sample</div>
         <div className="webviewer" ref={viewer} style={{height: "100vh"}}></div>
       </div>
-		    </div>
+
 		  
     )
 }
