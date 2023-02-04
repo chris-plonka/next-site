@@ -4,8 +4,6 @@ import Link from 'next/link'
 
 import styles from '@/styles/Home.module.css'
 
-
-
 export default function Skills() {
     return (
         <div className={styles.container}>
@@ -18,9 +16,6 @@ export default function Skills() {
                 </p>
             </div>
 	</div>
-		    
-     
-	     
-	
+		   	
     )
 }
