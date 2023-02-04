@@ -5,7 +5,7 @@ import Link from 'next/link'
 import styles from '@/styles/Home.module.css'
 
 
-<<<<<<< HEAD
+
 export default function Skills() {
     return (
         <div className={styles.container}>
@@ -17,7 +17,7 @@ export default function Skills() {
                     HTML, CSS, SASS, JS, React, Redux, Next.js, Firebase, NPM, Gulp, Git, MySQL, Wordpress.
                 </p>
             </div>
-
+	</div>
 		    
      
 	     
