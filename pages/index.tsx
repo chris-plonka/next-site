@@ -31,28 +31,27 @@ export default function Home() {
             <h2>My Story &rarr;</h2>
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
-		</Link>
+	</Link>
           <Link href="/skills">
-		  <a className={styles.card}>
+	  <a className={styles.card}>
             <h2>Skills &rarr;</h2>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
-		  </Link>
+	  </Link>
           <Link href="/projects">
           <a className={styles.card}>
             <h2>Projects &rarr;</h2>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </a>
-		</Link>
-          <Link href="/resume">
-            
+	  </Link>
+          <Link href="/resume">  
            <a className={styles.card}>
             <h2>Resume &rarr;</h2>
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
-		 </Link>
+	 </Link>
         </div>
 
         <button className="bg-blue-500 py-2 px-4 font-bold text-white hover:bg-blue-700">
