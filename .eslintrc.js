@@ -5,7 +5,6 @@ module.exports = {
     'prettier',
     'plugin:tailwindcss/recommended',
     "eslint:recommended", "next"
-    }
   ],
   rules: {
     "react/no-unescaped-entities": "off",
