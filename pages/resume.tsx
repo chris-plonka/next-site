@@ -34,14 +34,14 @@ export default function Resume(){
 
       return(
 	<div className={styles.container}>
-		  <Link href="/"><a className={styles.cardhome}><h2>home</h2></a></Link>
-     <div className={styles.grid}>    
+		  
+    
       <div className="MyComponent">
+	  <Link href="/"><a className={styles.cardhome}><h2>Home</h2></a></Link>
         <div className="header">React sample</div>
         <div className="webviewer" ref={viewer} style={{height: "100vh"}}></div>
       </div>
 		    </div>
-		    </div>
-    );
+		  
     )
 }
