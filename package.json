@@ -6,11 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-<<<<<<< HEAD
-    "postinstall": "npm run download-webviewer",
-=======
      "postinstall": "npm run download-webviewer",
->>>>>>> 2c3400167a245eb1b99d45bec151c27cd6dffea7
     "download-webviewer": "npx @pdftron/webviewer-downloader",
     "typecheck": "tsc",
     "lint": "eslint --ext .ts,.tsx --ignore-path .gitignore .",
