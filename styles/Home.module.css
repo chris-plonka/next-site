@@ -1,5 +1,5 @@
-.title h1,h2 {
-	font-weight: bold;
+h1,h2 {
+	font-weight: bold!important;
 }
 
 .container {
