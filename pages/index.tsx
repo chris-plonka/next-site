@@ -54,9 +54,11 @@ export default function Home() {
           </Link>
         </div>
 
-        <button className="bg-blue-500 py-2 px-4 font-bold text-white hover:bg-blue-700">
-          <a href="mailto:info@krzysztofplonka.pl">info@krzysztofplonka.pl</a>
-        </button>
+        <a href="mailto:info@krzysztofplonka.pl">
+          <button className="bg-blue-500 py-2 px-4 font-bold text-white hover:bg-blue-700">
+            info@krzysztofplonka.pl
+          </button>
+        </a>
       </main>
 
       <footer className={styles.footer}>
